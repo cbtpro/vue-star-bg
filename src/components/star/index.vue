@@ -16,8 +16,8 @@
 
 <script setup lang="ts">
 import { onMounted, onBeforeUnmount, ref, toRef } from 'vue';
+import { useImageLoader } from '@/hooks/image';
 import Star from './Star';
-import { useImageLoader } from '../../hooks/image';
 
 interface IStarProps {
   imageUrl: string;

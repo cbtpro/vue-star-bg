@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Star from './components/star/index.vue';
+import Star from '@/components/star/index.vue';
 
 const imageUrl = ref('./vite.svg')
 
