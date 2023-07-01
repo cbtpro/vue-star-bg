@@ -1,18 +1,22 @@
-# Vue 3 + TypeScript + Vite
+# 基于Vue 3 + TypeScript + Vite的canvas 动态星空背景
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![星空动态背景](blog.chenbitao.com/vue-star-bg/星空动态背景.gif)
 
-## Recommended IDE Setup
+在线预览点[这里](http://blog.chenbitao.com/vue-star-bg/)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+模板使用 Vue 3 的 `<script setup>` SFCs, 查看 [script setup 文档](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup)了解更多信息.
 
-## Type Support For `.vue` Imports in TS
+## 推荐 IDE 设置
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (禁用 Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## 在ts中类型支持导入对`.vue`
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+默认情况下，TypeScript不能处理`.vue`导入的类型信息，所以我们用`vue-tsc`替换`tsc` CLI来进行类型检查。 在编辑器中，我们需要[TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)来让TypeScript语言服务察觉到`.vue`类型。
+
+如果你觉得独立的TypeScript插件不够快，Volar还实现了一个性能更高的[Take Over Mode(接管模式)](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669)。您可以通过以下步骤启用它:
+
+1. 禁用内置的TypeScript扩展
+   1. 从VSCode的命令模式运行`Extensions: Show Built-in Extensions`
+   2. 找到 `TypeScript and JavaScript Language Features`, 点击鼠标右键选择`Disable (Workspace)`
+2. 通过从命令面板运行`Developer: Reload Window`来重新加载VSCode窗口。
