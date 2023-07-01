@@ -19,8 +19,13 @@ import { onMounted, onBeforeUnmount, ref, toRef } from 'vue';
 import { useImageLoader } from '@/hooks/image';
 import Star from './Star';
 
-interface IStarProps {
+/**
+ * 星星组件的props
+ */
+export interface IStarProps {
+  /** 画布背景图片 */
   imageUrl: string;
+  /** 生成多少个星星 */
   maxStars?: number;
 }
 

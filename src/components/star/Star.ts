@@ -14,9 +14,15 @@
 
 import { maxOrbit, random } from '@/utils';
 
-interface IStarOptions {
+/**
+ * 星星的构造函数参数
+ */
+export interface IStarOptions {
+  /** 画布尺寸宽度 */
   w: number;
+  /** 画布尺寸高度 */
   h: number;
+  /** 星星数量  */
   maxStars: number;
 }
 export default class Star {
@@ -28,7 +34,7 @@ export default class Star {
   orbitX: number;
   /** 运动轨道坐标y */
   orbitY: number;
-  /** 事件流逝速度 */
+  /** 时间流逝速度 */
   timePassed: number;
   /** 运动速度 */
   speed: number;

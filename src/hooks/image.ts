@@ -44,6 +44,8 @@ export const useImageLoader = (imageUrl: Ref<string>) => {
   const load = (url: string) => {
     loadImagePromise(url).then((img) => {
       image.value = img;
+    }).catch(err => {
+      console.error(err);
     });
   };
 
