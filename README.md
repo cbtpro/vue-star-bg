@@ -1,8 +1,8 @@
 # 基于Vue 3 + TypeScript + Vite的canvas 动态星空背景
 
-![星空动态背景](blog.chenbitao.com/vue-star-bg/星空动态背景.gif)
+![星空动态背景](https://blog.chenbitao.com/vue-star-bg/星空动态背景.gif)
 
-在线预览点[这里](http://blog.chenbitao.com/vue-star-bg/)
+在线预览点[这里](https://blog.chenbitao.com/vue-star-bg/)
 
 模板使用 Vue 3 的 `<script setup>` SFCs, 查看 [script setup 文档](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup)了解更多信息.
 
